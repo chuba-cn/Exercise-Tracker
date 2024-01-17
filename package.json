@@ -1,0 +1,32 @@
+{
+  "name": "exercise-tracker",
+  "version": "0.0.1",
+  "description": "An exercise tracker microservice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuba-cn/Exercise-Tracker.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "microservices",
+    "API"
+  ],
+  "author": "Chuba-Nwene. C <chinemelumchubanwene57@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chuba-cn/Exercise-Tracker/issues"
+  },
+  "homepage": "https://github.com/chuba-cn/Exercise-Tracker#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.4"
+  }
+}

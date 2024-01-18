@@ -7,7 +7,7 @@ module.exports.getAllUsers = async (req, res) =>{
         const users = await User.find({});
 
         for (let user of users) {
-          response.push({username: user.username, id: user._id});
+          response.push({username: user.username, _id: user._id});
         }
         res.status(200).json(response);
     }catch(error){

@@ -1,4 +1,4 @@
-# Exercise Tracker Microservice API Documentation
+# Exercise Tracker Microservice API
 
 This documentation provides details on the API endpoints and usage of the Exercise Tracker Microservice. The API allows users to track exercises, manage user information, and retrieve exercise logs.
 
